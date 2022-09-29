@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointments</title>
+    <link rel="stylesheet" href="Page-2.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li class="nav"><a href="Page-1.html">MAIN</a></li>
+            <li class="nav"><a href="Page-2.html">APPOINTMENTS</a></li>
+            <li class="nav"><a href="Page-3.html">DOGGO TYPES</a></li>
+            <li class="nav"><a href="Page-4.html">OUR CUSTOMERS</a></li>
+        </ul>
+    </header>
+
+    <h1>Doggo Appointments!!!!!!!!!!!!!!</h1>
+    <form>
+        <fieldset>
+            <div class="name">
+                <!--First/Last Name-->
+                <label for="name">First/Last Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="email">
+                <!--Email-->
+                <label for="email">Email:</label>
+                <input type="email" id="email" pattern=".+@globex\.com" size="30" required>
+            </div>
+
+            <div class="doggoName">
+                <!--Doggo Name-->
+                <label for="doggoName">Doggo Name:</label>
+                <input type="text" id="doggoName" name="doggoName" required>
+            </div>
+
+            <div class="fluffy">
+                <!--Fluffy or not fluffy-->
+                <input type="checkbox" id="fluffy" name="fluffy">
+                <label for="fluffy">Fluffy</label>
+
+                <input type="checkbox" id="notFluffy" name="notFluffy">
+                <label for="notFluffy">Not Fluffy</label>
+            </div>
+
+            <div class="doggoLife">
+                <!--Doggo Description-->
+                <label for="doggoLife">Describe your whole doggos life in one paragraph.</label> <br>
+                <textarea id="doggoLife" name="doggoLife" rows="8" cols="60"></textarea>
+            </div>
+
+            <!--Button-->
+            <div>
+                <button class="submit" type="button">Submit</button>
+            </div>
+
+
+        </fieldset>
+    </form>
+
+</body>
+</html>
